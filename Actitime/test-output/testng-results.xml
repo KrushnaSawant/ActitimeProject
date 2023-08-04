@@ -14,37 +14,37 @@
       <![CDATA[Database disconnected successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-24T11:36:24 IST" name="Default suite" finished-at="2023-07-24T11:36:46 IST" duration-ms="21482">
+  <suite started-at="2023-07-25T13:22:05 IST" name="Default suite" finished-at="2023-07-25T13:22:30 IST" duration-ms="25076">
     <groups>
     </groups>
-    <test started-at="2023-07-24T11:36:24 IST" name="Default test" finished-at="2023-07-24T11:36:46 IST" duration-ms="21482">
+    <test started-at="2023-07-25T13:22:05 IST" name="Default test" finished-at="2023-07-25T13:22:30 IST" duration-ms="25076">
       <class name="com.Actitime.Testscripts.CreateCustomer">
-        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:24 IST" name="databaseConnection" finished-at="2023-07-24T11:36:24 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:05 IST" name="databaseConnection" finished-at="2023-07-25T13:22:05 IST" duration-ms="14" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connected]]>
             </line>
           </reporter-output>
         </test-method> <!-- databaseConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:24 IST" name="launchBrowser" finished-at="2023-07-24T11:36:36 IST" duration-ms="12025" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:05 IST" name="launchBrowser" finished-at="2023-07-25T13:22:21 IST" duration-ms="15857" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is launched successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:36 IST" name="login" finished-at="2023-07-24T11:36:37 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:21 IST" name="login" finished-at="2023-07-25T13:22:21 IST" duration-ms="349" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logged in successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createCustomer()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:37 IST" name="createCustomer" finished-at="2023-07-24T11:36:44 IST" duration-ms="7892" status="PASS">
+        <test-method signature="createCustomer()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:21 IST" name="createCustomer" finished-at="2023-07-25T13:22:29 IST" duration-ms="7724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCustomer -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:44 IST" name="logout" finished-at="2023-07-24T11:36:45 IST" duration-ms="1090" status="FAIL">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:29 IST" name="logout" finished-at="2023-07-25T13:22:30 IST" duration-ms="1084" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1479, 17). Other element would receive the click: <img src="/img/default/dialogs/exitconfirm/shade.png?hash=1846506722" id="muar" style="display: block;">
@@ -52,10 +52,10 @@
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [49ed3c73be1021ae5546daf7f60c7e7c, clickElement {id=A00843508DE7CA629803A921A5DCADA0_element_110}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KRUSHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56067/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (49ed3c73be1021ae5546daf7f60c7e7c)] -> id: logoutLink]
-Session ID: 49ed3c73be1021ae5546daf7f60c7e7c]]>
+Command: [2ed071bf044f02136cf7e71415a8fa2c, clickElement {id=F4B40028E910196DE7B2D27C77AF1DF2_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KRUSHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57327/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ed071bf044f02136cf7e71415a8fa2c)] -> id: logoutLink]
+Session ID: 2ed071bf044f02136cf7e71415a8fa2c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1479, 17). Other element would receive the click: <img src="/img/default/dialogs/exitconfirm/shade.png?hash=1846506722" id="muar" style="display: block;">
@@ -63,10 +63,10 @@ Session ID: 49ed3c73be1021ae5546daf7f60c7e7c]]>
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [49ed3c73be1021ae5546daf7f60c7e7c, clickElement {id=A00843508DE7CA629803A921A5DCADA0_element_110}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KRUSHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56067/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (49ed3c73be1021ae5546daf7f60c7e7c)] -> id: logoutLink]
-Session ID: 49ed3c73be1021ae5546daf7f60c7e7c
+Command: [2ed071bf044f02136cf7e71415a8fa2c, clickElement {id=F4B40028E910196DE7B2D27C77AF1DF2_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\KRUSHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57327/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ed071bf044f02136cf7e71415a8fa2c)] -> id: logoutLink]
+Session ID: 2ed071bf044f02136cf7e71415a8fa2c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,11 +121,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:45 IST" name="closeBrowser" finished-at="2023-07-24T11:36:45 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:30 IST" name="closeBrowser" finished-at="2023-07-25T13:22:30 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="databaseDisconnection()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-24T11:36:46 IST" name="databaseDisconnection" finished-at="2023-07-24T11:36:46 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="databaseDisconnection()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7dcf94f8]" started-at="2023-07-25T13:22:30 IST" name="databaseDisconnection" finished-at="2023-07-25T13:22:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database disconnected successfully]]>

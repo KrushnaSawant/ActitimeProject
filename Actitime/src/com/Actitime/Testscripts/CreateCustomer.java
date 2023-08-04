@@ -19,9 +19,11 @@ public class CreateCustomer extends Baseclass {
 	public void createCustomer() throws EncryptedDocumentException, IOException {
 		HomePage hp = new HomePage(driver);
 		hp.getTaskTab().click();
+		
 		TaskPage tp = new TaskPage(driver);
 		tp.getAddNewTab().click();
 		tp.getNewCustomerTab().click();
+		
 		FileLibrary fis = new FileLibrary();
 		 String name = fis.readDataFromExcel("Sheet1", 3, 1);
 		tp.getCustomerNameTab().sendKeys(name);
